@@ -27,7 +27,7 @@ int main()
 	{
 		TransformedN = (N % p < 10) ? to_string(N % p) + TransformedN : char('A' + N % p - 10) + TransformedN;//если числовое значение цифры < 9,то возвращаетсся знак от '0' до '9', иначе от 'A' до 'F'
 		N /= p;
-	}
+	}//Другой нвый комментарий в основной ветке
 	//Новый комментарий
 	cout << TransformedN;
 } 
