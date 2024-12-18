@@ -2,7 +2,7 @@
 #include <string>
 
 using namespace std;
-
+//uguygu
 int main()
 {
 	setlocale(LC_ALL, "Russian");//смена локализации консоли
